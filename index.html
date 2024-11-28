@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Change Advisor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <canvas id="climateCanvas"></canvas>
+    <h1>CLIMATE CHANGE CHATBOT</h1>
+
+    <!-- Chat Section -->
+    <div class="chat-container">
+      <input
+        type="password"
+        id="api-key-input"
+        placeholder="Enter your OpenAI API key" />
+      <button id="test-api-key">Test API Key</button>
+      <div class="chat-box" id="chatBox"></div>
+      <input
+        type="text"
+        id="userInput"
+        class="user-input"
+        placeholder="Ask me anything about future climate change!" />
+      <button class="send-btn" id="sendMessageBtn">Send</button>
+    </div>
+
+    <footer>
+      <div class="footer-credits">
+        <p>
+          &copy; 2024 Created by Aayush Anantha, Brian H Lee, Matthew Edward
+          Cox, Renee Dhar, Sonakshi Sisodiya.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
